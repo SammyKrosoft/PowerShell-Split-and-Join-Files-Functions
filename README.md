@@ -1,2 +1,4 @@
-# PowerShell-Split-and-Join-Files-Functions
-These are 2 functions to split a file in smaller chunks of your choice, and join back these chunks
+# Split / Join file functions
+
+There are 2 functions in this sample. You can either dot source the Split/Join ps1, or copy/paste the Split/Join functions into your own scripts.
+

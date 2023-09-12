@@ -46,6 +46,8 @@ Here is a scenario example of how to use the Split/Join functions to split a com
 Compress-Archive -Path "C:\Reference\Draftdoc.docx", "C:\Reference\Images\*.vsd" -CompressionLevel "Fastest" -DestinationPath "C:\Temp\MonFichier.zip"
 ```
 
+Link: [Compress-Archive documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/compress-archive?view=powershell-7.3)
+
 Or just use Windows compress in the Windows Explorer, or WinZip, or 7Zip, or whatever you want.
 </details><br>
 
@@ -80,6 +82,6 @@ Join -Path c:\temp2\MonFichier.zip
 Expand-Archive -Path c:\temp2\MonFichier.zip -DestinationPath c:\temp3
 ```
 
-[Expand-Archive documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/expand-archive?view=powershell-7.1)
+Link: [Expand-Archive documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/expand-archive?view=powershell-7.1)
 
 </details>

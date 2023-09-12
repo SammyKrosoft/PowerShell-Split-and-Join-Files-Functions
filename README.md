@@ -49,6 +49,7 @@ Or just use Windows compress in the Windows Explorer, or WinZip, or 7Zip, or wha
 <br>
 <details>
 <summary>2- Split your archive with the "Split" function</summary>
+<br>
 
 ```powershell
 Split -Path "C:\Temp\MonFichier.Zip" -ChunkSize 2MB
@@ -60,6 +61,7 @@ Split -Path "C:\Temp\MonFichier.Zip" -ChunkSize 2MB
 
 <details>
 <summary>4- Join the pieces with the "Join" function</summary>
+<br>
 
 ```powershell
 Join -Path c:\temp2\MonFichier.zip

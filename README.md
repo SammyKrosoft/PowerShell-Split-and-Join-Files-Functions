@@ -43,6 +43,8 @@ And you will retrieve the join file in the same directory (first file in the bel
 Compress-Archive -Path "C:\Reference\Draftdoc.docx", "C:\Reference\Images\*.vsd" -CompressionLevel "Fastest" -DestinationPath "C:\Temp\MonFichier.zip"
 ```
 
+Or just use Windows compress in the Windows Explorer, or WinZip, or 7Zip, or whatever you want.
+
 2- Split your archive with the "Split" function
 
 ```powershell
@@ -62,3 +64,5 @@ Join -Path c:\temp2\MonFichier.zip
 ```powershell
 Expand-Archive -Path c:\temp2\MonFichier.zip -DestinationPath c:\temp3
 ```
+
+or just use Windows Explorer, WinZip, 7Zip, or whatever you want to expand the archive.

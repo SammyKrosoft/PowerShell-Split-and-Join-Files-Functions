@@ -23,7 +23,7 @@ The result will be 10 files in the same directory:
 
 ## Join file
 
-To join file back, you need to specity the initial file name, and the file will be joined in the same directory.
+To join file back, you need to specity the initial file name (like ```MonFichier.zip```), and the file will be joined in the same directory as the splitted files (FileName.<extention>.<Number>.part).
 
 > Note: the splitted files can be copied in any directory, just make sure to specify the path to the original name of the file.
 

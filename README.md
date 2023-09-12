@@ -31,6 +31,6 @@ To join file back, you need to specity the initial file name (like ```MonFichier
 Join -Path c:\temp2\MonFichier.zip
 ```
 
-And you will retrieve the join file in the same directory:
+And you will retrieve the join file in the same directory (first file in the below screenshot, also note the ```c:\temp2``` directory):
 
 ![Alt text](media/image-2.png)

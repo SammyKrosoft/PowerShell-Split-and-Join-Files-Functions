@@ -34,3 +34,31 @@ Join -Path c:\temp2\MonFichier.zip
 And you will retrieve the join file in the same directory (first file in the below screenshot, also note the ```c:\temp2``` directory):
 
 ![Alt text](media/image-2.png)
+
+## Scenario Example
+
+1- Compress your file(s) using [Compress-Archive](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/compress-archive?view=powershell-7.3)
+
+```powershell
+Compress-Archive -Path "C:\Reference\Draftdoc.docx", "C:\Reference\Images\*.vsd" -CompressionLevel "Fastest" -DestinationPath "C:\Temp\MonFichier.zip"
+```
+
+2- Split your archive with the "Split" function
+
+```powershell
+Split -Path "C:\Temp\MonFichier.Zip" -ChunkSize 2MB
+```
+
+3- Send/Transfer the pieces
+
+4- Join the pieces with the "Join" function
+
+```powershell
+Join -Path c:\temp2\MonFichier.zip
+```
+
+5- Expand the archive with [Expand-Archive](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/expand-archive?view=powershell-7.3)
+
+```powershell
+Expand-Archive -Path c:\temp2\MonFichier.zip -DestinationPath c:\temp3
+```

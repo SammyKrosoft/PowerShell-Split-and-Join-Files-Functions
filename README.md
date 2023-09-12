@@ -40,7 +40,7 @@ And you will retrieve the join file in the same directory (first file in the bel
 Here is a scenario example of how to use the Split/Join functions to split a compressed file, send the pieces, join the pieces back, and expand the compressed file.
 
 <details>
-<summary>1- Compress your file(s) using **Compress-Archive**</summary><br>
+<summary>1- Compress your file(s) using Compress-Archive or just use Windows Explorer, WinZip, 7Zip, or whatever you want...</summary><br>
 
 ```powershell
 Compress-Archive -Path "C:\Reference\Draftdoc.docx", "C:\Reference\Images\*.vsd" -CompressionLevel "Fastest" -DestinationPath "C:\Temp\MonFichier.zip"
@@ -75,7 +75,7 @@ Join -Path c:\temp2\MonFichier.zip
 <br>
 
 <details>
-<summary>5- Expand the archive with Expand-Archive cmdlet or just use Windows Explorer, WinZip, 7Zip, or whatever you want to expand the archive.</summary>
+<summary>5- Expand the archive with Expand-Archive cmdlet or just use Windows Explorer, WinZip, 7Zip, or whatever you want...</summary>
 <br>
 
 ```powershell

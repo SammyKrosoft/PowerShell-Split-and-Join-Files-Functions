@@ -62,6 +62,8 @@ Split -Path "C:\Temp\MonFichier.Zip" -ChunkSize 2MB
 <details>
 <summary>3- Send/Transfer the pieces</summary><br>
 
+Send the pieces to the destination, using whatever you want (email, FTP, etc...).
+
 </details><br>
 
 <details>

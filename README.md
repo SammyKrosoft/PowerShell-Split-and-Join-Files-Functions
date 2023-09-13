@@ -35,9 +35,9 @@ And you will retrieve the join file in the same directory (first file in the bel
 
 ![Alt text](media/image-2.png)
 
-## Scenario Example
+## Summary: Scenario Example
 
-Here is a scenario example of how to use the Split/Join functions to split a compressed file, send the pieces, join the pieces back, and expand the compressed file.
+Here is a summary through a scenario example of how to use the Split/Join functions to split a compressed file, send the pieces, join the pieces back, and expand the compressed file.
 
 <details>
 <summary>1- Compress your file(s) using Compress-Archive or just use Windows Explorer, WinZip, 7Zip, or whatever you want...</summary><br>
